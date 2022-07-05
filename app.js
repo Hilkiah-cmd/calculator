@@ -44,8 +44,6 @@ function addOperator(){
 }
 addOperator();
 function add(num1,num2){
-    num1 = 2;
-    num2 = 3;
     ans = num1 + num2;
     console.log(ans)
     return ans;
@@ -66,6 +64,6 @@ function division(num1,num2){
 function calculator(num1,num2){
     
 }
-equals.addEventListener("click",function(){
-    ansDisplay.textContent = add();
-})
+// equals.addEventListener("click",function(){
+//     ansDisplay.textContent = add();
+// })
